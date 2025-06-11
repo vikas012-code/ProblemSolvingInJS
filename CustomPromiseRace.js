@@ -3,6 +3,7 @@ const p1 = new Promise((resolve, reject) => {
     resolve("p1 resolved");
     // reject("p1 rejected");
   }, 1000);
+  
 });
 
 const p2 = new Promise((resolve, reject) => {
